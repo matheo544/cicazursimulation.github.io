@@ -1,0 +1,1054 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marianne', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #002147;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar ul li a:hover {
+    transform: scale(1.1);
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+/* Logo */
+.logo-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logo-container img {
+    height: 80px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #002147;
+    font-weight: bold;
+}
+
+/* Actualité Section */
+.actualite-section {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permet aux cartes de passer à la ligne suivante si l'espace est insuffisant */
+    gap: 20px;
+    /* Espace entre les cartes */
+    margin-bottom: 40px;
+    justify-content: center;
+    /* Centre les cartes horizontalement */
+}
+
+.actualite-card {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    /* Largeur fixe pour les cartes */
+    height: 400px;
+    /* Hauteur fixe pour les cartes */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* Distribue l'espace entre le contenu */
+}
+
+.actualite-card img {
+    width: 100%;
+    height: 200px;
+    /* Hauteur fixe pour toutes les images */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.actualite-card .content {
+    padding: 10px;
+}
+
+.actualite-card h2 {
+    font-size: 22px;
+    color: #002147;
+    margin-bottom: 10px;
+}
+
+.actualite-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Effets de hover */
+.actualite-card:hover {
+    transform: scale(1.03);
+}
+
+/* Notes de Service */
+.notes-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.note-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.note-card:hover {
+    transform: scale(1.03);
+}
+
+.note-card h2 {
+    font-size: 24px;
+    color: #002147;
+    margin-bottom: 10px;
+}
+
+.note-card p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #002147;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #003366;
+}
+
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marianne', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #002147;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar ul li a:hover {
+    transform: scale(1.1);
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+/* Logo */
+.logo-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logo-container img {
+    height: 80px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #002147;
+    font-weight: bold;
+}
+
+/* PDF Container */
+.pdf-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pdf-container iframe {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.pdf-container .btn {
+    background-color: #002147;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.pdf-container .btn:hover {
+    background-color: #003366;
+}
+
+/* Formulaire */
+#pdfForm {
+    margin-top: 20px;
+}
+
+#pdfForm input[type="file"] {
+    margin-bottom: 10px;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #002147;
+}
+
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marianne', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #002147;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar ul li a:hover {
+    transform: scale(1.1);
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+/* Logo */
+.logo-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logo-container img {
+    height: 80px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #002147;
+    font-weight: bold;
+}
+
+/* Report Container */
+.report-container {
+    background-color: #ffffff;
+    padding: 30px; /* Augmenter le padding pour un formulaire plus haut */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    height: auto; /* Permet au formulaire d'ajuster sa hauteur en fonction du contenu */
+}
+
+
+#compteRenduText {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+.form-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-footer label {
+    font-weight: bold;
+}
+
+.form-footer input[type="date"],
+.form-footer input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.btn {
+    background-color: #002147;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #003366;
+}
+
+
+/* DOCUMENTATION  */
+
+/* DOCUMENTATION */
+.documentation-section {
+    margin-top: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: opacity 1s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card.visible {
+    opacity: 1;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-title {
+    padding: 10px;
+    font-weight: bold;
+    color: #002147;
+}
+
+.card-content {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* DOCUMENTATION SECTION */
+
+.documentation-section {
+    margin-top: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    /* Ajout d'une marge pour descendre les cartes */
+}
+
+.card {
+    width: 250px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    /* Assure que la couleur du texte est héritée du parent */
+}
+
+.card a {
+    display: block;
+    /* S'assure que le lien occupe tout l'espace de la carte */
+    text-decoration: none;
+    /* Enlève le soulignement */
+    color: inherit;
+    /* La couleur du texte hérite de celle du parent */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-title {
+    padding: 10px;
+    font-weight: bold;
+    color: #002147;
+}
+
+.card-content {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Assure que le texte des liens n'a pas de soulignement dans les cartes */
+.card a:hover {
+    color: #002147;
+    /* Couleur au survol si souhaité, sinon tu peux enlever cette règle */
+}
+
+/* Barre noire en bas de l'écran */
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 250px;
+    /* Évite que la barre dépasse la sidebar */
+    width: calc(100% - 250px);
+    /* Largeur égale à 100% moins la largeur de la sidebar */
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    /* Assure que la barre est au-dessus du reste du contenu */
+    font-family: 'Marianne', sans-serif;
+    /* Assure que la police est cohérente avec le reste du site */
+}
+
+/* Logo en haut à gauche */
+.logo-top-left {
+    position: absolute;
+    top: 30px;
+    /* Décale légèrement vers le bas */
+    left: 25px;
+    /* Décale légèrement vers la droite */
+    z-index: 1000;
+    /* Assure-toi que le logo reste au-dessus des autres éléments */
+}
+
+.logo-top-left img {
+    height: 80px;
+    /* Augmente la taille du logo */
+    width: auto;
+    /* Conserve les proportions du logo */
+}
+
+/* ... ton CSS précédent ici ... */
+/* Style de la modale */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    /* Ajusté pour mieux centrer */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    text-align: center;
+    /* Centre le texte à l'intérieur de la modale */
+}
+
+.modal-content img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.modal-text-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #002147;
+    /* Fond noir */
+    color: white;
+    /* Texte blanc */
+    border-radius: 10px;
+    /* Coins arrondis */
+    text-align: left;
+    /* Centre le texte à l'intérieur du conteneur */
+    display: inline-block;
+    /* Ajuste la largeur au contenu */
+    width: 100%;
+    /* Prend toute la largeur du conteneur parent */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Optionnel : pour un effet d'ombre */
+    position: relative;
+    /* Positionnement relatif pour centrer le contenu */
+    margin: 0 auto;
+    /* Centre le conteneur horizontalement */
+}
+
+.modal-text-container h2 {
+    margin-bottom: 20px;
+    /* Espace entre le titre et la description */
+    font-size: 24px;
+    /* Ajuste la taille du titre si nécessaire */
+}
+
+.modal-text-container p {
+    font-size: 16px;
+    /* Ajuste la taille de la description si nécessaire */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Styles pour les boutons texte */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.text-btn {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    text-decoration: none; /* Retirer le soulignement du lien */
+    font-size: 1rem;
+    font-weight: 700;
+    color: #002147; /* Couleur du texte, bleu foncé */
+    background-color: #ffffff; /* Couleur de fond blanche */
+    border: 2px solid #002147; /* Contour bleu foncé */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer; /* Changer le curseur pour montrer que c'est cliquable */
+}
+
+.text-btn:hover {
+    background-color: #002147; /* Fond bleu foncé au survol */
+    color: #ffffff; /* Texte blanc au survol */
+}
+
+.text-btn:active {
+    background-color: #001a33; /* Couleur de fond au clic */
+    color: #ffffff; /* Texte blanc au clic */
+}
+
+/* Styles pour les icônes dans la barre latérale */
+.sidebar ul li a .icon {
+    width: 16px; /* Largeur de l'icône */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    vertical-align: middle; /* Aligner l'icône avec le texte */
+    margin-right: 10px; /* Espace entre l'icône et le texte */
+    display: inline-block; /* Afficher l'icône en ligne avec le texte */
+}
+
+
+
+
+
+/* RAJOUTS */
+/* Style pour le conteneur principal du formulaire */
+.report-container {
+    max-width: 800px; /* Ajustez la largeur maximale selon vos préférences */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    padding: 20px;
+    border: 1px solid #ccc; /* Optionnel : bordure autour du formulaire */
+    border-radius: 10px; /* Optionnel : arrondir les coins du formulaire */
+    background-color: #f9f9f9; /* Optionnel : couleur de fond du formulaire */
+    overflow-y: auto; /* Active le défilement vertical si le contenu dépasse la hauteur */
+}
+
+/* Style pour les champs de formulaire */
+.form-style .form-group {
+    width: 100%; /* Chaque groupe de champs occupe toute la largeur disponible */
+    margin-bottom: 15px; /* Espacement entre les champs */
+}
+
+/* Ajuster les styles des entrées et des zones de texte */
+.form-style input[type="text"],
+.form-style textarea {
+    width: 100%; /* Champs de texte occupent toute la largeur */
+    padding: 10px; /* Espacement intérieur pour un meilleur confort */
+    border: 1px solid #ccc; /* Bordure des champs */
+    border-radius: 5px; /* Arrondi des coins des champs */
+}
+
+/* Bouton de soumission */
+.btn {
+    background-color: #4CAF50; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    padding: 10px 15px; /* Espacement intérieur du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Arrondi des coins du bouton */
+    cursor: pointer; /* Curseur de la souris */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Couleur du bouton au survol */
+}
+
+/* Conteneur du formulaire */
+.report-container {
+    max-width: 1000px; /* Augmente la largeur maximale du conteneur de formulaire */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/* Largeur des champs de formulaire */
+.form-style .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-style input[type="text"],
+.form-style textarea {
+    width: 100%; /* Ajuste les champs pour utiliser presque toute la largeur disponible */
+    padding: 12px; /* Augmente le padding pour plus de confort */
+    font-size: 1rem; /* Taille de texte standard */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Bouton de soumission */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Conteneur du formulaire */
+.report-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/* Flexbox pour chaque groupe de champ */
+.form-group {
+    display: flex;
+    align-items: left;
+    margin-bottom: 15px;
+}
+
+/* Label pour les champs de formulaire */
+.form-group label {
+    min-width: 150px; /* Largeur minimale du label */
+    margin-right: 10px; /* Espace entre le label et le champ */
+    font-weight: bold;
+}
+
+/* Champs de formulaire qui occupent la largeur restante */
+.form-group input[type="text"],
+.form-group textarea {
+    flex-grow: 1; /* Le champ s'étend pour remplir l'espace disponible */
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Bouton de soumission */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+/* Ligne séparée pour Date et Heure */
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Assurez-vous que chaque champ prend la moitié de la ligne */
+.form-footer .form-group {
+    flex: 1;
+    margin-right: 10px; /* Espace entre les deux champs */
+}
+
+/* Supprimez le dernier espace à droite */
+.form-footer .form-group:last-child {
+    margin-right: 0;
+}
+
+
+/* Styling pour le conteneur form-footer */
+.form-footer {
+    display: block;
+    margin-top: 15px;
+}
+
+.form-footer .form-group {
+    margin-bottom: 10px; /* Espace entre les champs */
+}
+
+/* Style pour les labels et inputs */
+.form-footer label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-footer input {
+    width: 100%;
+    max-width: 300px; /* Largeur maximale pour le champ */
+}
+
+/* Conteneur du formulaire */
+.report-container {
+    max-width: 80%; /* Le formulaire occupe 80% de la largeur de la page */
+    margin: auto; /* Centrer le formulaire */
+}
+
+/* Largeur des champs de saisie */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    max-width: 100%; /* Assure que les champs s'étendent à la largeur maximale */
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Pour les labels */
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+/* Assurez-vous que le conteneur principal et le formulaire sont larges */
+.main-content {
+    max-width: 90vw; /* Presque toute la largeur de la fenêtre */
+    margin: auto;
+}
+
+.report-container {
+    width: 100%; /* Formulaire prend toute la largeur disponible */
+    max-width: 90vw; /* Limite maximale de 90% de la vue */
+    padding: 20px;
+}
+
+/* Champs de saisie */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Prend toute la largeur disponible */
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Champ à la largeur du conteneur */
+    padding: 10px;
+    font-size: 1em;
+    box-sizing: border-box; /* Inclure padding et bordure dans la largeur totale */
+}
+
+/* Pied du formulaire (Date et Heure) */
+.form-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-footer label,
+.form-footer input {
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+/* Largeur des boutons */
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+}
+/* Conteneur principal */
+.main-content {
+    max-width: 80vw; /* Largeur maximale de 80% de la vue */
+    margin: auto;
+}
+
+/* Conteneur du formulaire */
+.report-container {
+    width: 70%; /* Prend 70% de la largeur de .main-content */
+    max-width: 800px; /* Largeur maximale de 800px */
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Légère ombre pour effet */
+}
+
+/* Groupes de champs */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Prend toute la largeur disponible dans .report-container */
+    margin-bottom: 15px;
+}
+
+/* Champs de saisie */
+.form-group input,
+.form-group textarea {
+    width: 100%; /* S'adapte à la largeur de .form-group */
+    padding: 10px;
+    font-size: 1em;
+    box-sizing: border-box; /* Gère padding et bordure */
+}
+
+/* Section Date et Heure */
+.form-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Bouton Envoyer */
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Alignement à gauche pour les labels */
+label {
+    text-align: left; /* Aligne le texte à gauche */
+    display: block;   /* Permet au label de prendre toute la largeur de son conteneur */
+    margin-bottom: 0.5em; /* Ajoute un espacement en bas du label */
+}
